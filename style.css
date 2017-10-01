@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+html {
+	overflow-y: scroll;
+}
+
+body {
+	color: #666;
+	background: #eee;
+	text-align: center;
+	font-size: 12px;
+	line-height: 12px;
+	font-family: "Lucida Grande","Lucida Sans Unicode","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ",Meiryo,"ＭＳ Ｐゴシック",Helvetica,Arial,Verdana,sans-serif;
+}
+
+/* ----------------------------------------------
+	ClearFix
+------------------------------------------------- */
+.clearfix:after{
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+}
+
+.clearfix{
+    display:inline-block;
+    min-height:1%;  /* for IE 7*/
+}
+
+/* Hides from IE-mac */
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+/* ----------------------------------------------
+	Default LinkColor
+------------------------------------------------- */
+a{
+	color: #0089d2;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #e30072;
+	text-decoration: none;
+}
+
+hr {
+	border: none;
+    border-top: 1px solid #ccc;
+    height: 1px;
+}
+
+/* ----------------------------------------------
+	Header
+------------------------------------------------- */
+h1{
+	margin: 40px 0px 40px 0px;
+}
+
+h2,p {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: bottom;
+}
+
+#game {
+	border: 8px solid #ddd;
+	background-color: #fff;
+	width: 400px;
+	height: 600px;
+	margin: 0px auto 20px auto;
+}
+
+#description {
+	background-color: #ddd;
+	border: 6px #fff solid;
+	width: 440px;
+	padding: 20px;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: left;
+	margin: 0px auto 20px auto;
+}
+
+#description h2 {
+	font-size: 20px;
+	line-height: 20px;
+	margin-bottom: 14px;
+	text-align: center;
+}
+
+#description span.red{
+	font-weight: bold;
+	color: #9C6576;
+}
+
+#description span.blue{
+	font-weight: bold;
+	color: #5A629C;
+}
+
+#description table,th,td {
+	border-collapse: collapse;
+	padding: 6px;
+}
+
+#description th {
+	background-color: #eee;
+}
+#description td {
+	background-color: #fff;
+}
+
+#description p {
+	margin-bottom: 16px;
+}
+
+#description table {
+	float: right;
+}
+
+#share {
+	background-color: #ddd;
+	border: 6px #fff solid;
+	width: 440px;
+	padding: 20px;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: left;
+	margin: 0px auto 20px auto;
+}
+
+#share a.result {
+	display: none;
+	font-weight: bold;
+	text-align: right;
+	float: right;
+	
+	background-color: #eee;
+	padding: 0 10px;
+}
