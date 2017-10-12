@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ htmlWebpackPlugin.options.title }}</title>
+</head>
+    <body>
+        <h1>{{ htmlWebpackPlugin.options.title }}</h1>
+        <canvas id="game" width="400" height="600"></canvas>
+        <div id="share">
+            <a href="https://twitter.com/share?text=初春のゲームその2 初春の森&hashtags=初春の森,初春可愛い" class="twitter-share-button">Tweet</a>
+            <a href="http://twitter.com/share?url=http://www.sealcreation.net/games/uiharu_no_mori/&hashtags=初春の森&text=" target="_blank" id="tweetButton" class="result">
+            結果をつぶやく</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        </div>
+
+        <div id="description">
+            <h2>遊び方</h2>
+            <div>
+                <p>佐天さんが雨を降らせるので，雨を一粒残らず初春の頭に当てて潤しましょう。<span class="red">←キー</span>を押して左に，<span class="blue">→キー</span>を押して右に移動します。<br>
+                雨をこぼすとゲームオーバーになります。頭の草木の生命力を表現したイメージです。<br>
+                遊んだ後はスコアをツイートすることができます。</p>
+                <p>Safari，Chrome，Opera，IE9以上で動作確認しました。不具合苦情報告，または初春への愛を語りたい方は<a href="https://twitter.com/gomachan_77" target="_blank">@gomachan_77</a>まで</p>
+            </div>
+        </div>
+    </body>
+</html>
