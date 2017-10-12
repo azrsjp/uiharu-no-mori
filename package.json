@@ -1,0 +1,54 @@
+{
+  "name": "uiharu-no-mori",
+  "version": "1.0.0",
+  "description": "Cutie girls game",
+  "main": "js/uiharu.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack-dev-server --config webpack.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gomachan7/uiharu-no-mori.git"
+  },
+  "author": "gomachan7",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/gomachan7/uiharu-no-mori/issues"
+  },
+  "homepage": "https://gomachan7.github.io/uiharu-no-mori/",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-function-bind": "^6.22.0",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-minify": "^0.2.0",
+    "babel-types": "^6.26.0",
+    "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.8.0",
+    "expose-loader": "^0.7.3",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "handlebars": "^4.0.10",
+    "handlebars-loader": "^1.6.0",
+    "html-webpack-include-assets-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.5.3",
+    "numeral": "^2.0.6",
+    "postcss-loader": "^2.0.7",
+    "precss": "^2.0.0",
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.7.1",
+    "webpack-dev-server": "^2.9.1",
+    "webpack-merge": "^4.1.0"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "mousetrap": "^1.6.1"
+  }
+}
